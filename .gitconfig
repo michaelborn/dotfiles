@@ -1,0 +1,9 @@
+[user]
+	email = michael@ortussolutions.com
+	name = Michael Born
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[alias]
+	lb = "for-each-ref --count=10 --sort=-committerdate refs/heads/ --format='%(committerdate:relative)\t %(refname:short)'"
